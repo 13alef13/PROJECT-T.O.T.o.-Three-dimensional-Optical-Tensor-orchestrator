@@ -1,4 +1,4 @@
-# PROJECT oTPU (Optical Tensor Processing Unit)
+# PROJECT T.O.T.o. [Three-dimensional Optical Tensor orchestrator]
 ##### Feeling the light - 💡
 
 ### "Processing data at the speed of light resonance."
