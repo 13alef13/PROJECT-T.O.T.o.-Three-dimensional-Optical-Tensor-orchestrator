@@ -109,45 +109,49 @@ Monolithic Diamond Core (Ultra-pure 1.0 mm cube, Type IIa)
 ```
 ---
 
-### 📐 Принципиальная схема двухъядерного T.O.T.o.:
+### 📐 Schematic diagram of a dual-core T.O.T.o.:
 ```text
-Непрерывный фемтосекундный ИК-лазер 1560 нм (Несущая 193,4 ТГц)
+
+Continuous-wave femtosecond IR laser 1560 nm (Carrier 193.4 THz)
 	│
 	▼
-Межядерный оптический сплиттер 1 ->2  
-(Деление мощности между 2 отходящими линиями осуществляется в равных долях по 50% на оптический канал для каждого ядра)
+Inter-core optical splitter 1 -> 2  
+(Power is split equally between 2 outgoing lines at 50% per optical channel for each core)
 	│
-	▼ (Описание магистрали 50% для одного ядра, второе ядро идентично)
-Главный оптический сплиттер Первого ядра 1 -> 6  
-(Деление мощности между 6 отходящими линиями осуществляется в равных долях по 16,6% на каждый канал)
+	▼ (Description of the 50% trunk line for one core; the second core is identical)
+Main optical splitter of the First core 1 -> 6  
+(Power is split equally among 6 outgoing lines at 16.6% per channel)
 	│
-	▼ (Описание магистрали одного из 6 идентичных каналов)
-Ячейка Поккельса №1 (Вкл - Откл в диапазонах МГц-ГГц; управление амплитудой пропускной способностью)
-	│
-	▼
-Ячейка Поккельса №2 (Управление поляризацией через пластину λ/4; вертикальная, горизонтальная, круговая)
+	▼ (Description of the trunk line for one of the 6 identical channels)
+Pockels Cell No. 1 (On - Off in MHz–GHz ranges; amplitude and throughput control)
 	│
 	▼
-Пьезоэлектрический волоконный растяжитель (компенсации погрешностей, возможность статического фазового сдвига)
+Pockels Cell No. 2 (Polarization control via λ/4 waveplate; vertical, horizontal, circular)
 	│
 	▼
-Интегральный интерферометр Маха — Цендера (MZI-чип: инструмент динамического управления волновым диссонансом,
-ввод прецизионных интерференционных обертонов)
+Piezoelectric fiber stretcher (error compensation, static phase shift capability)
+	│
+	▼
+Integrated Mach-Zehnder Interferometer (MZI chip: tool for dynamic wave dissonance control,
+injection of precision interference overtones)
 	│
 	▼ 
-[Развернутый Y-сплиттер с 3 оптическими входами 33,3% / 33,3% / 33,3% и 1 выходом на 100%]
-├── Вход A (33,3%): от MZI-чипа лазерный вход от модулятора
-├── Вход B (33,3%): к фотодиоду-детектору
-├── Вход C (33,3%): Межъядерный мост  (Линия связи со Вторым Ядром состоит из: Ячейка Поккельса №1 ->
-│                   Ячейка Поккельса №2 -> Пьезоэлектрический волоконный растяжитель ->
-│                   MZI-чип -> Сплиттер Ядро №2 Вход C (33,3%))
-└── Выход (100%): суммирующая оптоволоконная жила - 100% подключена к линзе направленной на алмаз	
+[Reversed Y-splitter with 3 optical inputs 33.3% / 33.3% / 33.3% and 1 output at 100%]
+├── Input A (33.3%): laser input from the MZI chip modulator
+├── Input B (33.3%): to the photodiode detector
+├── Input C (33.3%): Inter-core bridge (Communication line with the Second Core consists of: Pockels Cell No. 1 ->
+│                    Pockels Cell No. 2 -> Piezoelectric fiber stretcher ->
+│                    MZI chip -> Core No. 2 Splitter Input C (33.3%))
+└── Output (100%): summing optical fiber core - 100% connected to the lens aimed at the diamond	
 	│
-	▼ (100% суммирующая жила волновода)
-Фокусирующая линза (Жесткий фокус строго в центр ядра)
+	▼ (100% summing waveguide core)
+Focusing lens (Tight focus strictly at the center of the core)
 	│
-	▼ (Вхождение ИК-волны в кристалл)
-Монолитное алмазное ядро №1 (Сверхчистый куб 1,0 мм, Тип IIa)
+	▼ (Entry of the IR wave into the crystal)
+Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
+	▲
+	│ (Passive scanning of the entire canvas plane at a 45-degree angle)
+[4 additional wide-angle photodiodes with macro lenses on the lower truncated vertices of the cube]
 
 ```
 ---
