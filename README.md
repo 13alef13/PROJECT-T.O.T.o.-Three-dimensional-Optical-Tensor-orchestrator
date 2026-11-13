@@ -154,6 +154,8 @@ Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 ```
 ---
 ---
+P.S. The project is primarily being developed in Russian. We apologize for any inconvenience. All the latest information is available in Russian.
+---
 ---
 
 # ПРОЕКТ T.O.T.o. [Трехмерный Оптический Тензорный оркестратор]  
