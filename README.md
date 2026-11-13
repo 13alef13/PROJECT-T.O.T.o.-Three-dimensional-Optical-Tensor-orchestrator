@@ -69,38 +69,42 @@ Conceptual Nomenclature Context: The acronym T.O.T.o. (Three-dimensional Optical
 
 ---
 
-### 📐 Базовая принципиальная схема одноядерного T.O.T.o.:
+### 📐 Basic schematic diagram of a single-core T.O.T.o.:
 ```text
-Непрерывный фемтосекундный ИК-лазер 1560 нм (Несущая 193,4 ТГц)
-	│
-	▼
-Главный оптический сплиттер 1 -> 6 
-(Деление мощности между 6 отходящими линиями осуществляется в равных долях по 16,6% на каждый канал)
-	│
-	▼ (Описание магистрали одного из 6 идентичных каналов)
-Ячейка Поккельса №1 (Вкл - Откл в диапазонах МГц-ГГц; управление амплитудой пропускной способностью)
-	│
-	▼
-Ячейка Поккельса №2 (Управление поляризацией через пластину λ/4; вертикальная, горизонтальная, круговая)
-	│
-	▼
-Пьезоэлектрический волоконный растяжитель (компенсации погрешностей, возможность статического фазового сдвига)
-	│
-	▼
-Интегральный интерферометр Маха — Цендера (MZI-чип: инструмент динамического управления волновым диссонансом,
-ввод прецизионных интерференционных обертонов))
-	│
-	▼ 
-[Развернутый Y-сплиттер с 2 оптическими входами 50/50% и 1 выходом на 100%]
-├── Вход A (50%): от MZI-чипа лазерный вход от модулятора
-├── Вход B (50%): к фотодиоду-детектору
-└── Выход (100%): суммирующая оптоволоконная жила - 100% подключена к линзе направленной на алмаз	
-	│
-	▼ (100% суммирующая жила волновода)
-Фокусирующая линза (Жесткий фокус строго в центр ядра)
-	│
-	▼ (Вхождение ИК-волны в кристалл)
-Монолитное алмазное ядро (Сверхчистый куб 1,0 мм, Тип IIa)
+
+Continuous Femtosecond IR Laser 1560 nm (Carrier 193.4 THz)
+       │
+       ▼
+Main Optical Splitter 1 -> 6
+(Equal power division across 6 outgoing lines at 16.6% per channel)
+       │
+       ▼ (Description of a single channel path out of 6 identical lines)
+Pockels Cell No. 1 (On/Off switching in MHz–GHz ranges; amplitude and throughput control)
+       │
+       ▼
+Pockels Cell No. 2 (Polarization control via λ/4 phase plate; vertical, horizontal, circular)
+       │
+       ▼
+Piezoelectric Fiber Stretcher (Path error compensation, static phase shift capability)
+       │
+       ▼
+Integrated Mach-Zehnder Interferometer (MZI chip: dynamic wave dissonance control, precision interference overtone injection)
+       │
+       ▼
+[Reversed Y-Splitter with 2 optical inputs 50/50% and 1 output 100%]
+ ├── Input A (50%): from MZI chip (laser input from modulator)
+ ├── Input B (50%): to photodiode detector
+ └── Output (100%): summing fiber-optic core - 100% connected to the lens directed at the diamond
+       │
+       ▼ (100% summing waveguide core)
+Focusing Lens (Strict focal point at the geometric center of the core)
+       │
+       ▼ (IR wave injection into the crystal)
+Monolithic Diamond Core (Ultra-pure 1.0 mm cube, Type IIa)
+       ▲
+       │ (Passive full-plane canvas scanning at a 45-degree angle)
+[4 additional wide-angle photodiodes with macro-lenses integrated on the lower truncated vertices of the cube]
+
 
 ```
 ---
