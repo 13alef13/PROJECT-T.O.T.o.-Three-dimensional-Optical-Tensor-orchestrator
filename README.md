@@ -51,7 +51,7 @@ Technology Core: Bosonic Optical Tensor Quantum Processor. Conceptually designed
 
 * **Network Scaling and Inter-Core Wave Interface:** The T.O.T.o. architecture provides computational power scaling by combining single cubic cores into modular continuous-cycle clusters (ranging from a duet to a full mesh network). \
 	Below is the configuration description for a dual network: \
-	ВFollowing the MZI chip, each of the 6 coaxial channels integrates a symmetric optical coupler reversed by 180 degrees—a 3-to-1 Y-splitter with an equal proportional energy distribution of 33 percent per input line. This topology combines three independent photonic paths within a single port: 
+Following the MZI chip, each of the 6 coaxial channels integrates a symmetric optical coupler reversed by 180 degrees—a 3-to-1 Y-splitter with an equal proportional energy distribution of 33 percent per input line. This topology combines three independent photonic paths within a single port: 
 	- Input A - laser input from the modulator - 33%, 
 	- Input B - back-reflected photon echo output to the photodiode detector - 33%,
 	- Input C - connection to the end-to-end inter-core fiber optic bridge - 33%,
