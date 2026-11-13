@@ -41,13 +41,12 @@ Technology Core: Bosonic Optical Tensor Quantum Processor. Conceptually designed
 	- Major Consonance (Weight Convergence and Harmonic Stabilization): A state in which incoming phase drifts and beam polarization combinations achieve precise spatial synergy with the core's baseline bosonic state. Instead of chaos, the system instantaneously locks into a new, stable interference pattern characterized by an increased density of wave antinodes and higher harmonics. For control algorithms, this serves as the physical manifestation of tensor matrix convergence, establishing resonance and validating the truth value of the logical inference.
 	- Minor Dissonance (Associative Contextual Search): Controlled phase drifts and pre-engineered asymmetry introduced by Stage 2 or MZI chips temporarily displace the system from its equilibrium state. The stable field topology shifts into a wave search zone (controlled chaos), transforming the volumetric grating into a dynamic Hopfield Bosonic Operator. This operational mode encodes associative scanning processes, exposing hidden contextual links between weights within a single physical clock cycle of the femtosecond pulse transit.
 
+
 * **Dual-Level Calibration and Interferometric Parametric Synthesis:** The T.O.T.o. architecture completely eliminates the requirement for micron-scale physical precision during the assembly of the optical path by decoupling spatial calibration tasks from mathematical modeling. Following the dual-stage Pockels cell matrix, each of the 6 IR channels (1560 nm) integrates a sequential coupling of a piezoelectric fiber stretcher and an integrated Mach-Zehnder Interferometer (MZI).
 	- Programmatic Path Phase Calibration: Prior to executing a computational cycle, the system performs automated pulsed probing across each of the 6 channels. Photodiode detectors capture the return transit time of the reflected wavefront via fiber-optic directional couplers. Based on this telemetry, the control electronics compute the mutual temporal drift between the axes and hardware-compensate for coarse assembly geometric tolerances by shifting Pockels cell switching clocks within the picosecond range at a 10–50 ps step resolution (integrating programmatic dead time delays).
 	- Piezoelectric Spatial Compensation: A piezoceramic fiber stretcher, offering a physical optical path elongation range from a few micrometers up to 3–4 millimeters, is utilized by the automated probing algorithm for complete hardware compensation of fiber-optic line cutting and splicing tolerances. By altering the physical path length, the system precisely aligns the optical trajectories of the channels within the sub-femtosecond range. The control system programmatically compensates for mutual temporal drift between the axes, guaranteeing the convergence of wavefronts strictly at the focal point of the core center, while also enabling a static phase shift (for example, a quarter-wavelength shift) to initialize controlled boundary conditions.
 	- Interferometric Synthesis of Associative Context: Integrated Mach-Zehnder Interferometers (MZI chips) are utilized exclusively as a tool for the dynamic control of associative contextual search (wave dissonance). By splitting and subsequently phase-shifting internal sub-beams, the MZI matrices introduce precision interference overtones and controlled phase perturbations directly into the geometry of the incoming wavefront. This transforms the fixed symmetry of the 6-axis crossroads into a flexible system of multi-dimensional wave synthesis, allowing the hardware encoding of a multitude of discrete shades of the neural network's associative context—limited only by the bit depth of the control electronics' DAC—and establishing a stable Hopfield memory energy landscape at room temperature.
 
-
-![Basic schematic diagram of a single-core T.O.T.o.:](https://github.com/13alef13/PROJECT-oTPU-Optical-Tensor-Processing-Unit-/blob/main/Schematic%20diagrams/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%BE%D0%B4%D0%BD%D0%BE%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20oTPU%20ver%201.1.png)
 
 * **Network Scaling and Inter-Core Wave Interface:** The T.O.T.o. architecture provides computational power scaling by combining single cubic cores into modular continuous-cycle clusters (ranging from a duet to a full mesh network). \
 	Below is the configuration description for a dual network: \
@@ -61,7 +60,6 @@ Following the MZI chip, each of the 6 coaxial channels integrates a symmetric op
 	Network scalability is achieved by adding input ports to the splitters located closer to the computing diamond core to connect additional inter-core fiber-optic bridges. \
 	Powering the multi-core network is executed from a single femtosecond IR laser, whose power is divided equally among the cores, which simplifies and synchronizes the operation of the entire system. 
 
-![Schematic diagram of a dual-core T.O.T.o.:](https://github.com/13alef13/PROJECT-oTPU-Optical-Tensor-Processing-Unit-/blob/main/Schematic%20diagrams/%D0%9F%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%81%D1%85%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B2%D1%83%D1%85%D1%8A%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D0%BE%D0%B3%D0%BE%20oTPU.png)
 
 * **Tactical Platform Positioning and Edge AI Applications:** The Three-dimensional Optical Tensor orchestrator (T.O.T.o.) is a standalone product for Edge AI designed to offload neural networks from thermal overheating while simultaneously serving as a calibration model for Project T.I.N. The complete absence of fermionic defects allows T.O.T.o. to be utilized in Phase 1 to refine 6D wavefront projection and picosecond delay compensation without spin noise in the NV-centers of the diamond core.  \
 Eliminating cryogenics and microwave antennas reduces T.O.T.o. power consumption to watt-level values. Thanks to its compact form factor, mesh-network scalability, and absolute immunity to external RF interference, the device functions as a cryogenics-free Bosonic Optical Tensor Quantum Processor for autonomous platforms: humanoid robotics, unmanned systems, and satellite onboard modules.  \
@@ -155,12 +153,6 @@ Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 
 ```
 ---
-
-* **Продолжение следует...:** проект находится в работе.
----
-
----
-
 ---
 ---
 
@@ -315,7 +307,6 @@ Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 ```
 ---
 
-* **Продолжение следует...:** проект находится в работе.
 ---
 
 ---
