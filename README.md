@@ -86,7 +86,8 @@ Pockels Cell No. 2 (Polarization control via λ/4 phase plate; vertical, horizon
 Piezoelectric Fiber Stretcher (Path error compensation, static phase shift capability)
        │
        ▼
-Integrated Mach-Zehnder Interferometer (MZI chip: dynamic wave dissonance control, precision interference overtone injection)
+Mach-Zehnder integrated interferometer (MZI chip: dynamic control tool for associative contextual search
+(wave dissonance), input of precision interference overtones)
        │
        ▼
 [Reversed Y-Splitter with 2 optical inputs 50/50% and 1 output 100%]
@@ -130,8 +131,8 @@ Pockels Cell No. 2 (Polarization control via λ/4 waveplate; vertical, horizonta
 Piezoelectric fiber stretcher (error compensation, static phase shift capability)
 	│
 	▼
-Integrated Mach-Zehnder Interferometer (MZI chip: tool for dynamic wave dissonance control,
-injection of precision interference overtones)
+Mach-Zehnder integrated interferometer (MZI chip: dynamic control tool for associative contextual search
+(wave dissonance), input of precision interference overtones)
 	│
 	▼ 
 [Reversed Y-splitter with 3 optical inputs 33.3% / 33.3% / 33.3% and 1 output at 100%]
