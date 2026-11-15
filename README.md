@@ -100,7 +100,7 @@ Focusing Lens (Strict focal point at the geometric center of the core)
        ▼ (IR wave injection into the crystal)
 Monolithic Diamond Core (Ultra-pure 1.0 mm cube, Type IIa)
        ▲
-       │ (Passive full-plane canvas scanning at a 45-degree angle)
+       │ (Passive scanning of the central plane of the nucleus at an angle of 45 degrees)
 [4 additional wide-angle photodiodes with macro-lenses integrated on the lower truncated vertices of the cube]
 
 
@@ -148,7 +148,7 @@ Focusing lens (Tight focus strictly at the center of the core)
 	▼ (Entry of the IR wave into the crystal)
 Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 	▲
-	│ (Passive scanning of the entire canvas plane at a 45-degree angle)
+	│ (Passive scanning of the central plane of the nucleus at an angle of 45 degrees)
 [4 additional wide-angle photodiodes with macro lenses on the lower truncated vertices of the cube]
 
 ```
@@ -254,7 +254,7 @@ Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 	▼ (Вхождение ИК-волны в кристалл)
 Монолитное алмазное ядро (Сверхчистый куб 1,0 мм, Тип IIa)
 	▲
-	│ (Пассивное сканирование всей плоскости холста под углом 45 градусов)
+	│ (Пассивное сканирование центральной плоскости ядра под углом 45 градусов)
 [4 дополнительных широкоугольных фотодиода с макролинзами на нижних усеченных вершинах куба]
 
 
@@ -301,7 +301,7 @@ Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 	▼ (Вхождение ИК-волны в кристалл)
 Монолитное алмазное ядро №1 (Сверхчистый куб 1,0 мм, Тип IIa)
 	▲
-	│ (Пассивное сканирование всей плоскости холста под углом 45 градусов)
+	│ (Пассивное сканирование центральной плоскости ядра под углом 45 градусов)
 [4 дополнительных широкоугольных фотодиода с макролинзами на нижних усеченных вершинах куба]
 
 ```
