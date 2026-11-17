@@ -67,6 +67,14 @@ Conceptual Nomenclature Context: The acronym T.O.T.o. (Three-dimensional Optical
 
 ---
 
+![Basic schematic diagram of a single-core T.O.T.o. Eng.:](https://github.com/13alef13/PROJECT-T.O.T.o.-Three-dimensional-Optical-Tensor-orchestrator/blob/main/Schematic%20diagrams/Basic%20schematic%20diagram%20of%20a%20single-core%20T.O.T.o.%20Eng..png)
+
+---
+
+![Schematic diagram of a dual-core T.O.T.o. Eng.:](https://github.com/13alef13/PROJECT-T.O.T.o.-Three-dimensional-Optical-Tensor-orchestrator/blob/main/Schematic%20diagrams/Schematic%20diagram%20of%20a%20dual-core%20T.O.T.o.%20Eng..png)
+
+---
+
 ### 📐 Basic schematic diagram of a single-core T.O.T.o.:
 ```text
 
