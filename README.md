@@ -61,10 +61,10 @@ Following the MZI chip, each of the 6 coaxial channels integrates a symmetric op
 	Powering the multi-core network is executed from a single femtosecond IR laser, whose power is divided equally among the cores, which simplifies and synchronizes the operation of the entire system. 
 
 
-* **Аппаратная оптимизация и коммерческое масштабирование (Интеграция TFLN):** TАрхитектура T.O.T.o. предусматривает гибкую адаптацию элементной базы под задачи конкретного внедрения, разделяя платформу на две аппаратные модификации без изменения геометрии алмазного ядра:
-	- Интеграция волноводных чипов TFLN (Тонкопленочный ниобат лития): Для серийного производства и снижения габаритов каскады амплитудной и фазовой модуляции (ячейки Поккельса №1 и №2), а также матрицы интерферометров Маха — Цендера (MZI) переносятся на единые интегральные фотонные чипы TFLN под длину волны 1560 нм. Это снижает управляющее напряжение с сотен вольт до 1–3 Вольт (прямое управление от ПЛИС/ЦАП) и повышает частоту модуляции свыше 100–200 ГГц с длительностью логических импульсов до 5–10 пикосекунд.
-	- Коммерческая CW-версия (T.O.T.o. Lite для Edge AI): Для одноядерных и компактных периферийных систем (робототехника, беспилотники) допускается замена дорогого фемтосекундного лазера на серийный непрерывный ИК-лазер (CW, 1560 нм). В этой конфигурации нарезку импульсов (5–10 пс) полностью берут на себя чипы TFLN, а необходимая плотность энергии внутри ядра достигается за счет резонансного накопления стоячих волн от граней кристалла.
-	- • Флагманская фемтосекундная версия (T.O.T.o. Pro / Cluster): Для многоядерных mesh-кластеров и задач нелинейной бозонной квантовой оптики сохраняется единый фемтосекундный лазер (50 фс). При делении луча на десятки межъядерных каналов высокая пиковая мощность фемтосекундных импульсов экономически выгоднее установки отдельных усилителей на каждую линию, обеспечивая при этом сквозную фазовую синхронизацию всего кластера и возбуждение нелинейных эффектов в алмазе для калибровки старшего проекта T.I.N.
+* **Hardware Optimization and Commercial Scaling (TFLN Integration):** The T.O.T.o. architecture provides flexible adaptation of its component base to specific deployment tasks, dividing the platform into two hardware modifications without altering the geometry of the diamond core:
+	- Integration of TFLN (Thin-Film Lithium Niobate) Waveguide Chips: For mass production and size reduction, the amplitude and phase modulation cascades (Pockels cells No. 1 and No. 2), as well as the Mach-Zehnder Interferometer (MZI) matrices, are transferred onto unified integrated TFLN photonic chips tuned for a 1560 nm wavelength. This reduces the driving voltage from hundreds of volts down to 1–3 Volts (enabling direct control from an FPGA/DAC) and increases the modulation frequency above 100–200 GHz with logic pulse durations down to 5–10 picoseconds.
+	- Commercial CW Version (T.O.T.o. Lite for Edge AI): For single-core and compact edge systems (robotics, unmanned aerial vehicles), the expensive femtosecond laser can be replaced with a commercial continuous-wave IR laser (CW, 1560 nm). In this configuration, pulse slicing (5–10 ps) is entirely handled by the TFLN chips, while the required energy density inside the core is achieved through resonant accumulation of standing waves reflecting off the crystal facets.
+	- Flagship Femtosecond Version (T.O.T.o. Pro / Cluster): For multi-core mesh clusters and nonlinear bosonic quantum optics tasks, a single femtosecond laser (50 fs) is retained. When splitting the beam across dozens of inter-core channels, the high peak power of femtosecond pulses is more cost-effective than installing separate optical amplifiers on each line, while simultaneously ensuring end-to-end phase synchronization across the entire cluster and exciting nonlinear effects in the diamond for calibrating the flagship Project T.I.N.
 
 
 * **Tactical Platform Positioning and Edge AI Applications:** The Three-dimensional Optical Tensor orchestrator (T.O.T.o.) is a standalone product for Edge AI designed to offload neural networks from thermal overheating while simultaneously serving as a calibration model for Project T.I.N. The complete absence of fermionic defects allows T.O.T.o. to be utilized in Phase 1 to refine 6D wavefront projection and picosecond delay compensation without spin noise in the NV-centers of the diamond core.  \
@@ -115,7 +115,7 @@ Focusing Lens (Strict focal point at the geometric center of the core)
        ▼ (IR wave injection into the crystal)
 Monolithic Diamond Core (Ultra-pure 1.0 mm cube, Type IIa)
        ▲
-       │ (Passive scanning of the central plane of the nucleus at an angle of 45 degrees)
+       │  (Passive scanning of the central plane of the core at an angle of 45 degrees)
 [4 additional wide-angle photodiodes with macro-lenses integrated on the lower truncated vertices of the cube]
 
 
@@ -163,7 +163,7 @@ Focusing lens (Tight focus strictly at the center of the core)
 	▼ (Entry of the IR wave into the crystal)
 Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 	▲
-	│ (Passive scanning of the central plane of the nucleus at an angle of 45 degrees)
+	│ (Passive scanning of the central plane of the core at an angle of 45 degrees)
 [4 additional wide-angle photodiodes with macro lenses on the lower truncated vertices of the cube]
 
 ```
@@ -234,10 +234,10 @@ Monolithic diamond core No. 1 (Ultra-pure 1.0 mm cube, Type IIa)
 	Питание многоядерной сети осуществляется от одного фемтосекундного ИК- лазера, мощность которого разделяется между ядрами в равном соотношении, это позволяет упростить и синхронизировать работу всей системы. 
 
 
-* **Аппаратная оптимизация и коммерческое масштабирование (Интеграция TFLN):** TАрхитектура T.O.T.o. предусматривает гибкую адаптацию элементной базы под задачи конкретного внедрения, разделяя платформу на две аппаратные модификации без изменения геометрии алмазного ядра:
+* **Аппаратная оптимизация и коммерческое масштабирование (Интеграция TFLN):** Архитектура T.O.T.o. предусматривает гибкую адаптацию элементной базы под задачи конкретного внедрения, разделяя платформу на две аппаратные модификации без изменения геометрии алмазного ядра:
 	- Интеграция волноводных чипов TFLN (Тонкопленочный ниобат лития): Для серийного производства и снижения габаритов каскады амплитудной и фазовой модуляции (ячейки Поккельса №1 и №2), а также матрицы интерферометров Маха — Цендера (MZI) переносятся на единые интегральные фотонные чипы TFLN под длину волны 1560 нм. Это снижает управляющее напряжение с сотен вольт до 1–3 Вольт (прямое управление от ПЛИС/ЦАП) и повышает частоту модуляции свыше 100–200 ГГц с длительностью логических импульсов до 5–10 пикосекунд.
 	- Коммерческая CW-версия (T.O.T.o. Lite для Edge AI): Для одноядерных и компактных периферийных систем (робототехника, беспилотники) допускается замена дорогого фемтосекундного лазера на серийный непрерывный ИК-лазер (CW, 1560 нм). В этой конфигурации нарезку импульсов (5–10 пс) полностью берут на себя чипы TFLN, а необходимая плотность энергии внутри ядра достигается за счет резонансного накопления стоячих волн от граней кристалла.
-	- • Флагманская фемтосекундная версия (T.O.T.o. Pro / Cluster): Для многоядерных mesh-кластеров и задач нелинейной бозонной квантовой оптики сохраняется единый фемтосекундный лазер (50 фс). При делении луча на десятки межъядерных каналов высокая пиковая мощность фемтосекундных импульсов экономически выгоднее установки отдельных усилителей на каждую линию, обеспечивая при этом сквозную фазовую синхронизацию всего кластера и возбуждение нелинейных эффектов в алмазе для калибровки старшего проекта T.I.N.
+	- Флагманская фемтосекундная версия (T.O.T.o. Pro / Cluster): Для многоядерных mesh-кластеров и задач нелинейной бозонной квантовой оптики сохраняется единый фемтосекундный лазер (50 фс). При делении луча на десятки межъядерных каналов высокая пиковая мощность фемтосекундных импульсов экономически выгоднее установки отдельных усилителей на каждую линию, обеспечивая при этом сквозную фазовую синхронизацию всего кластера и возбуждение нелинейных эффектов в алмазе для калибровки старшего проекта T.I.N.
 
 
 * **Тактическое позиционирование платформы и применение в периферийных и бортовых системах ИИ (Edge AI):** Трехмерный Оптический Тензорный оркестратор (T.O.T.o.) представляет собой самостоятельный продукт для Edge AI, разгружающий нейросети от перегрева и выступающий калибровочной моделью проекта T.I.N. Отсутствие фермионных дефектов позволяет использовать T.O.T.o. в Фазе 1 для отработки 6D-проецирования и пикосекундной компенсации задержек без спинового шума в NV- центрах алмазного ядра.  \
