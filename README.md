@@ -1,4 +1,4 @@
-Due to recent changes in the project, the work posted here requires adjustment.
+Due to recent changes in the project, the work posted here requires adjustment.   
 В связи с последними изменениями в проекте размещенная здесь работа требует корректировки. 
 ---
 # PROJECT T.O.T.o. [Three-dimensional Optical Tensor orchestrator]
