@@ -14,7 +14,7 @@ Technology Core: Bosonic Optical Tensor Quantum Processor. Conceptually designed
 
 ## ⚡ CORE HARDWARE SPECIFICATION
 
-* **Photonic Monolithic Core:** • The computing core utilizes a single, ultra-pure synthetic monocrystalline diamond crystal (Type IIa, grown via HPHT/CVD) shaped as a precision 1.0mm cube. The diamond functions as an optically dense, isotropic medium with a refractive index of n = 2.42, acting as a permanent 3D waveguide crossroads without micro-structural distortions.      
+* **Photonic Monolithic Core:** • The computing core utilizes a single, ultra-pure synthetic monocrystalline diamond crystal (Type IIa, grown via HPHT/CVD) shaped as a precision 1.0mm cube. During precision cutting and polishing, the four lower vertices of the cube are beveled (Truncated Cube geometry), forming 45-degree optical facets for coupling wide-angle tomography receivers, while the micro-lenses of all 10 channels (0.125–0.25 mm in diameter) fit freely onto the facets and bevels without spatial overlap. The diamond functions as an optically dense, isotropic medium with a refractive index of n = 2.42, acting as a permanent 3D waveguide crossroads without micro-structural distortions.      
 	**Size and Shape Matter:** • This specific crystal type and dimensions are utilized as a baseline to simplify the architectural explanation of the hardware operational principles. Larger scales and advanced non-cubic crystal geometries exponentially expand the computational complexity achievable by the device. A key vector for the strategic scaling of this architecture includes the geometric configuration of a truncated icosahedron (Buckyball / Fullerene C60 molecular matrix alignment).
 
 
@@ -216,7 +216,7 @@ analyzers (4 × [PBS, λ/4, 4 InGaAs photodiodes]: measuring S0, S1, S2, S3) -> 
 
 ## ⚡ БАЗОВАЯ АППАРАТНАЯ СПЕЦИФИКАЦИЯ
 
-* **Фотонное монолитное ядро:** Вычислительное ядро использует одиночный сверхчистый синтетический монокристаллический алмаз (Тип IIa, выращенный методом HPHT/CVD) в форме прецизионного куба размером 1,0 мм. Алмаз функционирует как оптически плотная, изотропная среда с коэффициентом преломления n=2,42, выступая в роли постоянного 3D-перекрёстка волноводов без микроструктурных искажений.  
+* **Фотонное монолитное ядро:** Вычислительное ядро использует одиночный сверхчистый синтетический монокристаллический алмаз (Тип IIa, выращенный методом HPHT/CVD) в форме прецизионного куба размером 1,0 мм. При прецизионной огранке и полировке четыре нижних вершины куба стачиваются (геометрия усеченного куба, Truncated Cube), формируя оптические площадки под углом 45 градусов для стыковки широкоугольных приемников томографии, при этом микролинзы всех 10 каналов (диаметром 0,125–0,25 мм) свободно размещаются на гранях и фасках без взаимного перекрытия. Алмаз функционирует как оптически плотная, изотропная среда с коэффициентом преломления n=2,42, выступая в роли постоянного 3D-перекрёстка волноводов без микроструктурных искажений.  
   **Размер и форма имеют значение:** данный тип и размер кристалла используется как базовый для упрощения объяснения принципа работы оборудования. Чем больше размер и сложнее геометрическая форма кристалла тем более сложные вычисления можно проводить на устройстве. Одной из перспективных форм развития проекта является геометрическая форма бакибола (молекулы фуллерена C60) — усечённый икосаэдр.
 
 
