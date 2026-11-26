@@ -140,7 +140,8 @@ Focusing Lens (Strict focal point at the geometric center of the core)
 Monolithic Diamond Core (Ultra-pure 1.0 mm cube, Type IIa)
        ▲
        │  (Passive scanning of the central plane of the core at an angle of 45 degrees)
-[4 additional wide-angle photodiodes with macro-lenses integrated on the lower truncated vertices of the cube]
+[4 additional faceted receivers on the lower truncated vertices of the cube with macro-lenses (45°) and Stokes polarization analyzers
+ (4 × [PBS, λ/4, 4 InGaAs photodiodes]: measuring S0, S1, S2, S3 -> 16-bit Dual-Gain ADCs)]
 
 
 ```
