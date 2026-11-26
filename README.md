@@ -107,7 +107,9 @@ Conceptual Nomenclature Context: The acronym T.O.T.o. (Three-dimensional Optical
 ### 📐 Basic schematic diagram of a single-core T.O.T.o.:
 ```text
 
-Continuous Femtosecond IR Laser 1560 nm (Carrier 193.4 THz)
+IR Optical Radiation Generator (Carrier 193.4 THz):
+Pulsed Femtosecond Laser 1560 nm (50 fs, Pro Edition) /
+Continuous-Wave CW Laser 1560.28 nm (Lite Edition)
        │
        ▼
 Main Optical Splitter 1 -> 6
@@ -150,7 +152,9 @@ analyzers (4 × [PBS, λ/4, 4 InGaAs photodiodes]: measuring S0, S1, S2, S3) -> 
 ### 📐 Schematic diagram of a dual-core T.O.T.o.:
 ```text
 
-Continuous-wave femtosecond IR laser 1560 nm (Carrier 193.4 THz)
+IR Optical Radiation Generator (Carrier 193.4 THz):
+Pulsed Femtosecond Laser 1560 nm (50 fs, Pro Edition) /
+Continuous-Wave CW Laser 1560.28 nm (Lite Edition)
 	│
 	▼
 Inter-core optical splitter 1 -> 2  
@@ -304,7 +308,9 @@ analyzers (4 × [PBS, λ/4, 4 InGaAs photodiodes]: measuring S0, S1, S2, S3) -> 
 
 ### 📐 Базовая принципиальная схема одноядерного T.O.T.o.:
 ```text
-Непрерывный фемтосекундный ИК-лазер 1560 нм (Несущая 193,4 ТГц)
+Оптический генератор ИК-излучения (Несущая 193,4 ТГц):
+Импульсный фемтосекундный лазер 1560 нм (50 фс, версия Pro) /
+Непрерывный CW-лазер 1560,28 нм (версия Lite)
 	│
 	▼
 Главный оптический сплиттер 1 -> 6 
@@ -346,7 +352,9 @@ analyzers (4 × [PBS, λ/4, 4 InGaAs photodiodes]: measuring S0, S1, S2, S3) -> 
 
 ### 📐 Принципиальная схема двухъядерного T.O.T.o.:
 ```text
-Непрерывный фемтосекундный ИК-лазер 1560 нм (Несущая 193,4 ТГц)
+Оптический генератор ИК-излучения (Несущая 193,4 ТГц):
+Импульсный фемтосекундный лазер 1560 нм (50 фс, версия Pro) /
+Непрерывный CW-лазер 1560,28 нм (версия Lite)
 	│
 	▼
 Межядерный оптический сплиттер 1 ->2  
