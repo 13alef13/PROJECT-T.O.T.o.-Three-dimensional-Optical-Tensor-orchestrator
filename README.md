@@ -129,7 +129,8 @@ Mach-Zehnder integrated interferometer (MZI chip: dynamic control tool for assoc
        ▼
 [Reversed Y-Splitter with 2 optical inputs 50/50% and 1 output 100%]
  ├── Input A (50%): from MZI chip (laser input from modulator)
- ├── Input B (50%): to photodiode detector
+ ├── Input B (50%): to Stokes polarization analyzer (PBS splitters, λ/4 waveplate, 4 InGaAs photodiodes:
+ │                  measuring S0 [intensity], S1 [H/V], S2 [±45°], S3 [R/L circular]) -> 16-bit Dual-Gain ADC
  └── Output (100%): summing fiber-optic core - 100% connected to the lens directed at the diamond
        │
        ▼ (100% summing waveguide core)
@@ -174,7 +175,8 @@ Mach-Zehnder integrated interferometer (MZI chip: dynamic control tool for assoc
 	▼ 
 [Reversed Y-splitter with 3 optical inputs 33.3% / 33.3% / 33.3% and 1 output at 100%]
 ├── Input A (33.3%): laser input from the MZI chip modulator
-├── Input B (33.3%): to the photodiode detector
+├── Input B (33.3%): to Stokes polarization analyzer (PBS splitters, λ/4 waveplate, 4 InGaAs photodiodes:
+│                    measuring S0 [intensity], S1 [H/V], S2 [±45°], S3 [R/L circular]) -> 16-bit Dual-Gain ADC
 ├── Input C (33.3%): Inter-core bridge (Communication line with the Second Core consists of: Pockels Cell No. 1 ->
 │                    Pockels Cell No. 2 -> Piezoelectric fiber stretcher ->
 │                    MZI chip -> Core No. 2 Splitter Input C (33.3%))
